@@ -1,0 +1,23 @@
+{
+  "name": "mysql-nodejs-expressjs",
+  "version": "1.0.0",
+  "description": "Restfull Nodejs + Express js with database Mysql",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app/server.js"
+  },
+  "keywords": [
+    "restapi",
+    "express",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "arnandofajar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
